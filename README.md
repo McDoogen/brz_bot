@@ -1,6 +1,9 @@
 # brz-bot
 brz-bot is an experimentation with ROS 2, localization, and teleoperation! Fun! :D
 
+# Other Packages Used
+1. https://github.com/ros-teleop/teleop_tools.git
+
 # Parts Needed for Phase 2:
 
 
@@ -16,3 +19,9 @@ brz-bot is an experimentation with ROS 2, localization, and teleoperation! Fun! 
 6. Ultrasonic Range Sensor Integration
 
 Batteries can be 9V for a smaller footprint and then stepped down. What is the Voltage range for the PI?
+
+# Useful Commands to Stop Forgetting
+rosdep install -i --from-path src --rosdistro galactic -y
+
+# Questions needing answers
+1. Is it possible to develop and build entirely on our PC, and then deploy to our PI? Can we just move the build folders over and not need to clone the src?
