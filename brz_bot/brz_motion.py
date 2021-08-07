@@ -29,8 +29,8 @@ class BrzMotion(Node):
             self.kit.motor2.throttle = msg.linear.x
             print_out = "Robot Moving"
         elif msg.angular.z != 0:
-            self.kit.motor1.throttle = msg.angular.z
-            self.kit.motor2.throttle = -msg.angular.z
+            self.kit.motor1.throttle = -msg.angular.z
+            self.kit.motor2.throttle = msg.angular.z
             print_out = "Robot Rotating"
         else:
             self.kit.motor1.throttle = 0.0

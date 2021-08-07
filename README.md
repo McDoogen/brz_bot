@@ -4,8 +4,9 @@ brz-bot is an experimentation with ROS 2, localization, and teleoperation! Fun! 
 # Other Packages Used
 1. https://github.com/ros-teleop/teleop_tools.git
 
-# Parts Needed for Phase 2:
-
+# Tasks for Phase 2:
+1. Improve Acceleration for starting/stopping movements
+2. Add battery improvements to remove cables
 
 # Parts needed for Future Phases:
 1. Battery Pack for Logic (5V)
